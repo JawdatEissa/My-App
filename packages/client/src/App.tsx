@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-
+import { Button } from '@/components/ui/button'
 
 
 function App() {
@@ -12,8 +12,9 @@ function App() {
  },[]);
 
  return (
-   <div>
+   <div className="App flex flex-col items-center justify-center min-h-screen bg-background">
      <p className = "font-bold p-5 text-3xl">{message || 'Loading message...'}</p>
+     <Button >Click Me</Button>
    </div>
  );
 
