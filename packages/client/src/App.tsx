@@ -13,7 +13,7 @@ function App() {
 
  return (
    <div>
-     <h1>{message || 'Loading message...'}</h1>
+     <p className = "font-bold p-5 text-3xl">{message || 'Loading message...'}</p>
    </div>
  );
 
